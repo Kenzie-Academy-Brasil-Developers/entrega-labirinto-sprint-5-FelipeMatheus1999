@@ -1,0 +1,71 @@
+.root {
+    background: rgb(24, 34, 24);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.root__title {
+    font-family: 'Press Start 2P', cursive;;
+    text-shadow: 2px 2px 2px gray;
+    font-size: 48px;
+    padding: 20px 15px 0 15px;
+}
+
+.root__game {
+    background: rgb(76, 102, 76);
+    border:8px outset #313131;
+    width: 650px;
+    height: 450px;
+    margin-top: 75px;
+    padding: 20px;
+}
+
+.line {
+    display: flex;
+}
+
+.gameWall {
+    background: #303030;
+    border:5px outset #818181;
+    width: 20px;
+    height: 20px;
+}
+
+.gameWalk {
+    background: black;
+    width: 30px;
+    height: 30px;
+}
+
+.start {
+    text-align: center;
+    background: rgb(122, 121, 149);
+    border: 5px outset silver;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.end {
+    background: rgb(59, 26, 4);
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.victory {
+    text-align: center;
+    background: rgb(58, 43, 4);
+    font-family: 'Press Start 2P', cursive;;
+    font-size: 16px;
+    font-weight: bold;
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
